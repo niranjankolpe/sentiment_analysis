@@ -1,3 +1,5 @@
 venv/
+models/
+reports/
 __pycache__/
 *.pyc
