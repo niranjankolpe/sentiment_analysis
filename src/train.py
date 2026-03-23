@@ -20,6 +20,14 @@ import matplotlib.pyplot as plt
 
 from text_preprocessing import preprocess, preprocess_label
 
+import os
+
+models_path = "models/"
+os.makedirs(models_path, exist_ok=True)
+
+reports_path = "reports/"
+os.makedirs(reports_path, exist_ok=True)
+
 df = pd.read_csv("data/sentimentdataset.csv")
 # print(df.head())
 # print(df.iloc[0])
